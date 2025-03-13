@@ -1,0 +1,41 @@
+""" Charlie set off with great zeal to the "Kracker Jack Fun Fair 2017". 
+
+
+
+There were numerous activities at the fair, though Charlie, being a Math expert, liked to participate in the Addition Challenge.
+
+
+
+The Challenge given to him was to find S, where
+
+S=20 +21+22+...........+2N.
+
+
+
+He would succeed in his challenge if he manages to tell the answer to the problem before others. He requests your help to solve the problem in a flash. 
+
+
+
+Write a program using functions to find S and help Charlie win the challenge.
+
+
+
+Function Specification
+
+Use the function name as findSum(). The function must return S.
+
+Input format :
+The input contains an integer representing the value of N.
+
+Output format :
+The output prints the value of S."""
+
+
+
+def findSum(int):
+    s=0
+    for i in range(0,n+1):
+        s+=2**i
+    return s
+n=int(input())
+print(findSum(n))
